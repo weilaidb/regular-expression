@@ -1,0 +1,1000 @@
+   48  git push origin master
+   49  cd ..
+   50  cd erlang_example
+   51  ls
+   52  git status
+   53  cp elog1.config ../erlang_example.save2/
+   54  cd ..
+   55  cd erlang_example.save2/
+   56  ls
+   57  git status
+   58  cd code/
+   59  ls
+   60  find . -name afile_server.erl
+   61  cat afile_server.erl 
+   62  pwd
+   63  ls
+   64  cat afile_server.erl 
+   65  pwd
+   66  ls
+   67  erlc afile_server.erl 
+   68  cd websockets/
+   69  ls
+   70  erlc svg1.erl 
+   71  cat -n svg1.erl 
+   72  erlc web.erl 
+   73  vi svg1.html 
+   74  erlc svg1.erl 
+   75  cat svg1.erl 
+   76  cat svg1.erl  -n
+   77  erlc shell1.erl 
+   78  cat -n shell1.erl 
+   79  find . -name ets_test.erl
+   80  cd ..
+   81  find . -name ets_test.erl
+   82  cat ets_test.erl 
+   83  ls
+   84  erlc ets_test.erl 
+   85  erl
+   86  make
+   87  ls
+   88  cd websockets/
+   89  ls
+   90  make
+   91  pwd
+   92  ls
+   93  cat Makefile 
+   94  make
+   95  make clean
+   96  make
+   97  cd ..
+   98  ls
+   99  pwd
+  100  ls
+  101  cd escript-4.1/
+  102  ls
+  103  make
+  104  make clean
+  105  make
+  106  cd ..
+  107  ls
+  108  svn st
+  109  git status
+  110  git revert escript-4.1/escript
+  111  git revert
+  112  git revert HEAD
+  113  git status
+  114  git revert HEAD 
+  115  git revert HEAD c864ed55d1baee5b9eb89361ad6a2e86fc0efbe5
+  116  git status
+  117  git checkout escript-4.1/escript
+  118  ls
+  119  git status
+  120  git diff websockets/svg1.html
+  121  git checkout websockets/svg1.html
+  122  git diff websockets/svg1.html
+  123  ls
+  124  ls lib_trigrams.erl 
+  125  cat lib_trigrams.erl 
+  126  ls 354984si.ngl.gz 
+  127  ls -l 354984si.ngl.gz 
+  128  ls -lh 354984si.ngl.gz 
+  129  erl
+  130  ls Mnesia.nonode\@nohost/
+  131  cat Mnesia.nonode\@nohost/
+  132  cd Mnesia.nonode\@nohost/
+  133  ls
+  134  cat FALLBACK.BUP 
+  135  [weilaidb@localhost code]$ git status
+  136  On branch master
+  137  Your branch is ahead of 'origin/master' by 4 commits.
+  138    (use "git push" to publish your local commits)
+  139  Changes not staged for commit:
+  140    (use "git add <file>..." to update what will be committed)
+  141    (use "git checkout -- <file>..." to discard changes in working directory)
+  142          modified:   websockets/svg1.html
+  143  Untracked files:
+  144    (use "git add <file>..." to include in what will be committed)
+  145          a.beam
+  146          abc.beam
+  147          afile_server.beam
+  148          allocator.beam
+  149          area_server.beam
+  150          area_server0.beam
+  151          area_server1.beam
+  152          area_server2.beam
+  153          area_server_final.beam
+  154          attrs.beam
+  155          b.beam
+  156          benchmark_assoc.beam
+  157          benchmark_mk_assoc.beam
+  158          broadcast.beam
+  159          chat_cluster.beam
+  160          chat_file_transfer.beam
+  161          chat_multi.beam
+  162          chat_secure.beam
+  163          chat_socket.beam
+  164          checker.beam
+  165          clock.beam
+  166          convert1.beam
+  167          convert2.beam
+  168          convert3.beam
+  169          convert4.beam
+  170          convert5.beam
+  171          cookbook_examples.beam
+  172          counter1.beam
+  173          counter2.beam
+  174          counter3.beam
+  175          counter4.beam
+  176          ctemplate.beam
+  177          dist_demo.beam
+  178          edemo1.beam
+  179          edemo2.beam
+  180          erl_crash.dump
+  181          error1.beam
+  182          escript-4.1/escript.beam
+  183          ets_test.beam
+  184          event_handler.beam
+  185          extract.beam
+  186          fac.beam
+  187          fac1.beam
+  188          geometry.beam
+  189          hello.beam
+  190          id3_tag_lengths.beam
+  191          id3_v1.beam
+  192          lib_auth_cs.beam
+  193          lib_filenames_dets.beam
+  194          lib_files_find.beam
+  195          lib_find.beam
+  196          lib_io_widget.beam
+  197          lib_lin.beam
+  198          lib_md5.beam
+  199          lib_misc.beam
+  200          lib_primes.beam
+  201          lib_rsa.beam
+  202          lib_tcp_server.beam
+  203          lib_trigrams.beam
+  204          lists1.beam
+  205          m1.beam
+  206          math1.beam
+  207          math2.beam
+  208          math3.beam
+  209          misc.beam
+  210          monitor1.beam
+  211          monitor2.beam
+  212          monitor3.beam
+  213          motor_controller.beam
+  214          mp3_manager.beam
+  215          mp3_sync.beam
+  216          my_alarm_handler.beam
+  217          my_bank.beam
+  218          my_fac_server.beam
+  219          mylists.beam
+  220          name_server.beam
+  221          name_server1.beam
+  222          new_name_server.beam
+  223          phofs.beam
+  224          prime_server.beam
+  225          processes.beam
+  226          ptests.beam
+  227          registrar.beam
+  228          scavenge_urls.beam
+  229          sellaprime_app.beam
+  230          sellaprime_supervisor.beam
+  231          server1.beam
+  232          server2.beam
+  233          server3.beam
+  234          server4.beam
+  235          server5.beam
+  236          shop.beam
+  237          shop1.beam
+  238          shop2.beam
+  239          shop3.beam
+  240          shout.beam
+  241          socket_dist/any_apply.beam
+  242          socket_dist/chat_client.beam
+  243          socket_dist/chat_group.beam
+  244          socket_dist/chat_server.beam
+  245          socket_dist/io_widget.beam
+  246          socket_dist/kvs.beam
+  247          socket_dist/lib_chan.beam
+  248          socket_dist/lib_chan_auth.beam
+  249          socket_dist/lib_chan_cs.beam
+  250          socket_dist/lib_chan_mm.beam
+  251          socket_dist/lib_chan_test.beam
+  252          socket_dist/lib_md5.beam
+  253          socket_dist/mod_chat_controller.beam
+  254          socket_dist/mod_echo.beam
+  255          socket_dist/mod_math.beam
+  256          socket_dist/mod_name_server.beam
+  257          socket_dist/mod_srpc.beam
+  258          socket_dist/test1.beam
+  259          socket_dist/test_name_server.beam
+  260          socket_examples.beam
+  261          status.beam
+  262          stimer.beam
+  263          test_mapreduce.beam
+  264          test_mnesia.beam
+  265          tracer_test.beam
+  266          try_test.beam
+  267          udp_test.beam
+  268          upcase.beam
+  269          update_binary_file.beam
+  270          update_file.beam
+  271          user_default.beam
+  272          vfs.beam
+  273          wordcount.beam
+  274          ../elog1.config
+  275  no changes added to commit (use "git add" and/or "git commit -a")
+  276  [weilaidb@localhost code]$ git diff websockets/svg1.html
+  277  diff --git a/code/websockets/svg1.html b/code/websockets/svg1.html
+  278  index 1ceab52..db9dcb1 100644
+  279  --- a/code/websockets/svg1.html
+  280  +++ b/code/websockets/svg1.html
+  281  @@ -20,7 +20,7 @@ $(document).ready(function(){
+  282      });
+  283   
+  284   var canvas;
+  285  -var svg_ns='http://www.w3.org/2000/svg';
+  286  +var svg_ns='http://www.w3.org/TR/SVG/';
+  287   
+  288   function add_canvas(o){
+  289       canvas = document.createElementNS(svg_ns, 'svg');
+  290  [weilaidb@localhost code]$ git checkout websockets/svg1.html
+  291  [weilaidb@localhost code]$ git diff websockets/svg1.html
+  292  ifconfig 
+  293  ping -b 192.168.59.255
+  294  ls
+  295  dir
+  296  uname -a
+  297  cat /proc/cpuinfo 
+  298  cat /proc/meminfo 
+  299  free
+  300  watch free
+  301  top
+  302  top -s 1
+  303  top -d 0.5
+  304  top -d 0.1
+  305  w
+  306  w
+  307  ls
+  308  dir
+  309  ls
+  310  dir
+  311  ls -lh
+  312  dir
+  313  pwd
+  314  ls
+  315  cd work/
+  316  ls
+  317  cd linux
+  318  ls
+  319  cd ..
+  320  ls
+  321  cd git/
+  322  ls
+  323  cd ker
+  324  ls
+  325  cd ..
+  326  cd ker
+  327  ls
+  328  cd linux
+  329  ls
+  330  cd kernel/
+  331  ls
+  332  cd linux-4.5.4/
+  333  ls
+  334  make 
+  335  make -j10
+  336  cd ..
+  337  ls
+  338  cd ..
+  339  ls
+  340  tar -xvf linux-4.6.4.tar.xz -C kernel/
+  341  cd linux-4.6.4.tar.xz 
+  342  pwd
+  343  ls
+  344  cd kernel/
+  345  ls
+  346  cd ..
+  347  tar -tvf linux-4.6.4.tar.xz 
+  348  ls
+  349  cd kernel/
+  350  ls
+  351  cd linux-4.6.4/
+  352  ls
+  353  make defconfig
+  354  make menuconfig
+  355  make 
+  356  make defconfig
+  357  make
+  358  make -j10
+  359  cd arch/x86/boot/
+  360  ls
+  361  ls bzImage 
+  362  ls -lh bzImage 
+  363  cd ../../
+  364  ;s
+  365  cd .
+  366  ;s
+  367  cd ..
+  368  ls
+  369  ls -lh
+  370  tree
+  371  yum install tree
+  372  su
+  373  yum instsall tree
+  374  yum install tree
+  375  su
+  376  tree
+  377  basename 
+  378  basename .
+  379  basename $PWD
+  380  tree > `basename $PWD`.filelist.txt
+  381  ls -l linux-4.6.4.filelist.txt 
+  382  ls -lh linux-4.6.4.filelist.txt 
+  383  cat linux-4.6.4.filelist.txt 
+  384  cat linux-4.6.4.filelist.txt reason
+  385  reason
+  386  cd drivers/
+  387  ls
+  388  cd net/
+  389  ls
+  390  find
+  391  pwd
+  392  ls
+  393  cd tip
+  394  ls
+  395  find | grep tipc
+  396  cd ..
+  397  find | grep tipc
+  398  cd net/
+  399  ls
+  400  pwd
+  401  ls
+  402  cd ethernet/
+  403  ls
+  404  find
+  405  make
+  406  cat Makefile 
+  407  cd dec/
+  408  ls
+  409  tree
+  410  cat Kconfig 
+  411  cat Makefile |grep linux-4.6.4
+  412  cat Makefile |grep NET_VENDOR_DEC
+  413  cat Makefile 
+  414  find | xargs grep linux-4.6.4
+  415  find | xargs grep NET_VENDOR_DEC
+  416  find | xargs grep CONFIG_NET_TULIP
+  417  pwd
+  418  ls
+  419  cat Kconfig 
+  420  pwd
+  421  ls
+  422  cd ..
+  423  ls
+  424  cd 8390/
+  425  ls
+  426  cat Kconfig 
+  427  cat Makefile | grep ZORRO8390
+  428  pwd
+  429  ls
+  430  tree
+  431  cat mac8390.c 
+  432  pwd
+  433  ls
+  434  cd work/
+  435  ls
+  436  cd git/
+  437  ls
+  438  cd Python/
+  439  ls
+  440  pwd
+  441  ls
+  442  cat Dict.py 
+  443  ./Dict.py hello
+  444  ./Dict.py hello world
+  445  ./Dict.py hello world test
+  446  ./Dict.py test
+  447  ./Dict.py sex
+  448  ./Dict.py test
+  449  git remote -v
+  450  ./Dict.py 
+  451  ./Dict.py nihaoma
+  452  ./Dict.py test
+  453  ./Dict.py text
+  454  ./Dict.py subversion
+  455  ./Dict.py git
+  456  ./Dict.py cmd
+  457  ./Dict.py yun
+  458  ./Dict.py cloud
+  459  ./Dict.py sourceinsight
+  460  ./Dict.py music
+  461  ./Dict.py outlives
+  462  ./Dict.py environment
+  463  ./Dict.py library
+  464  ./Dict.py handle
+  465  ./Dict.py reason
+  466  reason
+  467  ./Dict.py reason
+  468  ./Dict.py configuration
+  469  ./Dict.py particular
+  470  ./Dict.py Internal
+  471  ./Dict.py Internal database environment structure
+  472  ./Dict.py chunk
+  473  ./Dict.py Farallon
+  474  ./Dict.py Apple
+  475  ./Dict.py sane
+  476  ./Dict.py memset
+  477  ./Dict.py memcpy
+  478  ./Dict.py Cabletron
+  479  ./Dict.py Nubus
+  480  ./Dict.py registers
+  481  w
+  482  info
+  483  dir
+  484  ls
+  485  ls -lh
+  486  cd work/
+  487  ls
+  488  cd linux
+  489  ls
+  490  cd kernel/
+  491  ls
+  492  cd linux-4.6.4/
+  493  ls
+  494  make bZmage
+  495  make image
+  496  make bzImage
+  497  cat /proc/buddyinfo 
+  498  vmstat -a
+  499  cat /proc/sys/vm/swappiness 
+  500  ls
+  501  cd test/
+  502  ls
+  503  cat >calc
+  504  mkdir calc
+  505  rm -rf calc 
+  506  mkdir calc
+  507  ls
+  508  cd ca
+  509  mkdir calc
+  510  ls
+  511  cd calc/
+  512  ls
+  513  cat >org
+  514  cat org 
+  515  cat org  | awk -F '*' '{print $1}'
+  516  cat org  | awk -F '*' '{print $1 $2}'
+  517  cat org  | awk -F '*' '{print $1 }'
+  518  cat org  | awk -F '*' '{print $1 }' | wc -l
+  519  cat org  | awk -F '*' '{print $1 }' | sort |uniq
+  520  cat org  | awk -F '*' '{print $2 }' | sort |uniq
+  521  cat org  | awk -F '*' '{print $3 }' | sort |uniq
+  522  cat org  | awk -F '*' '{print $3 }' | awk -F '+' '{print $1}'
+  523  cat org  | awk -F '*' '{print $3 }' | awk -F '+' '{print $2}'
+  524  cat org  | awk -F '*' '{print $3 }' | awk -F '+' '{print $2}' |sort |uniq
+  525  cat org  | awk -F '*' '{print $4 }' | awk -F '+' '{print $2}' |sort |uniq
+  526  cat org  | awk -F '*' '{print $5 }' | awk -F '+' '{print $2}' |sort |uniq
+  527  cat org  | awk -F '*' '{print $6 }' | awk -F '+' '{print $2}' |sort |uniq
+  528  cat org  | awk -F '*' '{print $7 }' | awk -F '+' '{print $2}' |sort |uniq
+  529  cat org  | awk -F '*' '{print $8 }' | awk -F '+' '{print $2}' |sort |uniq
+  530  cat org  | awk -F '*' '{print $9 }' | awk -F '+' '{print $2}' |sort |uniq
+  531  cat org  | awk -F '*' '{print $1 }' | awk -F '+' '{print $2}' |sort |uniq
+  532  cat org  | awk -F '*' '{print $10 }' | awk -F '+' '{print $2}' |sort |uniq
+  533  cat org  | awk -F '*' '{print $12 }' | awk -F '+' '{print $2}' |sort |uniq
+  534  cat org  | awk -F '*' '{print $13 }' | awk -F '+' '{print $2}' |sort |uniq
+  535  cat org  | awk -F '*' '{print $14 }' | awk -F '+' '{print $2}' |sort |uniq
+  536  history 
+  537  cat org  | awk -F '*' '{print $1}'
+  538  cat org  | awk -F '*' '{print $1 }' | sort |uniq
+  539  cat org  | awk -F '*' '{print $2 }' | awk -F '+' '{print $2}' |sort |uniq
+  540  cat org  | awk -F '*' '{print $3 }' | awk -F '+' '{print $2}' |sort |uniq
+  541  cat org  | awk -F '*' '{print $6 }' | awk -F '+' '{print $2}' |sort |uniq
+  542  cat org  | awk -F '*' '{print $1 }' | sort |uniq                                   >log.txt
+  543  cat org  | awk -F '*' '{print $2 }' | awk -F '+' '{print $2}' |sort |uniq          >>log.txt
+  544  cat org  | awk -F '*' '{print $3 }' | awk -F '+' '{print $2}' |sort |uniq          >>log.txt
+  545  cat org  | awk -F '*' '{print $4 }' | awk -F '+' '{print $2}' |sort |uniq          >>log.txt
+  546  cat org  | awk -F '*' '{print $5 }' | awk -F '+' '{print $2}' |sort |uniq          >>log.txt
+  547  cat org  | awk -F '*' '{print $6 }' | awk -F '+' '{print $2}' |sort |uniq          >>log.txt
+  548  cat org  | awk -F '*' '{print $7 }' | awk -F '+' '{print $2}' |sort |uniq          >>log.txt
+  549  cat org  | awk -F '*' '{print $8 }' | awk -F '+' '{print $2}' |sort |uniq          >>log.txt
+  550  cat org  | awk -F '*' '{print $9 }' | awk -F '+' '{print $2}' |sort |uniq          >>log.txt
+  551  cat org  | awk -F '*' '{print $10 }' | awk -F '+' '{print $2}' |sort |uniq         >>log.txt
+  552  cat org  | awk -F '*' '{print $11 }' | awk -F '+' '{print $2}' |sort |uniq         >>log.txt
+  553  cat org  | awk -F '*' '{print $12 }' | awk -F '+' '{print $2}' |sort |uniq         >>log.txt
+  554  cat org  | awk -F '*' '{print $13 }' | awk -F '+' '{print $2}' |sort |uniq         >>log.txt
+  555  cat org  | awk -F '*' '{print $14 }' | awk -F '+' '{print $2}' |sort |uniq         >>log.txt
+  556  cat log.txt 
+  557  cat log.txt  | sed -i 's/ //g'
+  558  cat log.txt  | sed -i 's/ //g' log.txt 
+  559  cat log.txt 
+  560  cat log.txt  | sort | uniq
+  561  cat log.txt  
+  562  cat log.txt  | sort | uniq
+  563  cat log.txt  | sort | uniq >result.txt
+  564  vi result.txt 
+  565  cat result.txt 
+  566  ifconfig 
+  567  ls -lh
+  568  pwd
+  569  ls
+  570  er
+  571  erl
+  572  pwd
+  573  ls
+  574  era_
+  575  era_check 
+  576  w
+  577  w
+  578  stop
+  579  skill -9 -t pts/0
+  580  w
+  581  skill -9 -t pts/1
+  582  w
+  583  pwd
+  584  ls
+  585  pwd
+  586  ls
+  587  cd /home/wo
+  588  ls
+  589  pwd
+  590  ls
+  591  ls -l
+  592  su
+  593  pwd
+  594  ls
+  595  cd work/kernel/
+  596  ls
+  597  tar -xvf linux-3.0.8.tar.bz2 
+  598  pwd
+  599  ls
+  600  cd linux-3.0.8
+  601  ls
+  602  vi Makefile 
+  603  pwd
+  604  ls
+  605  cd ..
+  606  ls
+  607  cd compile-tools/
+  608  ls
+  609  tar -xvf arm-2011.03-42-arm-none-eabi-i686-pc-linux-gnu.tar.bz2 
+  610  cd arm-2011.03
+  611  pwd
+  612  ls
+  613  cd bin/
+  614  ls
+  615  ./arm-none-eabi-gcc -v
+  616  pwd
+  617  echo $PATH
+  618  pwd
+  619  export PATH=$PATH:/home/weilaidb/work/kernel/compile-tools/arm-2011.03/bin
+  620  echo $PATH
+  621  vi ~/.bashrc 
+  622  arm-none-eabi-g++
+  623  pwd
+  624  ls
+  625  cd ..
+  626  cd linux-3.0.8
+  627  vi Makefile 
+  628  find | grep config
+  629  find | grep 2440
+  630  find | grep 2440 | grep config
+  631  cp ./arch/arm/configs/mini2440_defconfig .config
+  632  make 
+  633  make menuconfig
+  634  make 
+  635  cat Makefile | grep NOSTDINC_FLAGS 
+  636  vi Makefile 
+  637  make 
+  638  pwd
+  639  ls
+  640  pwd
+  641  ls
+  642  pwd
+  643  ls
+  644  cd arch/arm/
+  645  ls
+  646  cd boot/
+  647  ls
+  648  ls -l
+  649  date
+  650  cd ..
+  651  ls
+  652  vi arch/arm/mach-s3c2440/mach-smdk2440.c 
+  653  ls arch/arm/configs/s3c2410_defconfig arch/arm/configs/s3c2410_defconfig
+  654  makemenuconfig
+  655  make menuconfig
+  656  make
+  657  find arch/| grep mach-types
+  658  cat arch/arm/tools/mach-types | grep s3c
+  659  vi arch/arm/tools/mach-types 
+  660  make
+  661  make zImage
+  662  cp .config WEILAIDBCOM.config 
+  663  make zImage
+  664  su
+  665  vi Makefile 
+  666  vi arch/arm/boot/Makefile 
+  667  vi Makefile 
+  668  make
+  669  cd work/kernel/linux-3.0.8
+  670  ls
+  671  du -sh
+  672  cat arch/arm/mach-s3c2440/mach-smdk2440.c | grep MACHINE
+  673  cd arch/arm/mach-s3c2440/
+  674  cp mach-smdk2440.c mach-tq2440.c
+  675  cd ..
+  676  cd plat-s3c24xx/
+  677  cp common-smdk.c common-EmbedSky.c
+  678  cd include/
+  679  pwd
+  680  cd plat/
+  681  cp common-smdk.h common-EmbedSky.h
+  682  cd ..
+  683  vi common-smdk.c 
+  684  cd ..
+  685  vi drivers/mtd/nand/s3c2410.c 
+  686  make menuconfig
+  687  make
+  688  vi arch/arm/plat-s3c24xx/common-smdk.c 
+  689  make
+  690  vi arch/arm/plat-s3c24xx/common-smdk.c 
+  691  make
+  692  ls -l
+  693  date
+  694  cd drivers/
+  695  ls
+  696  find | grep yaff
+  697  cd ..
+  698  find | grep yaffs
+  699  cd ..
+  700  ls
+  701  cd yaffs2/
+  702  ls
+  703  ./patch-ker.sh c ../linux-3.0.8/
+  704  dos2unix patch-ker.sh 
+  705  ./patch-ker.sh c ../linux-3.0.8/
+  706  ./patch-ker.sh c s ../linux-3.0.8/
+  707  ./patch-ker.sh c m ../linux-3.0.8/
+  708  rm -rf ../linux-3.0.8/fs/yaffs2/
+  709  ./patch-ker.sh c m ../linux-3.0.8/
+  710  ls ../linux-3.0.8/fs/yaffs2/
+  711  cd ../linux-3.0.8
+  712  ls
+  713  make menuconfig
+  714  rm -rf fs/yaffs2/
+  715  ls
+  716  make menuconfig
+  717  vi fs/Kconfig
+  718  make menuconfig
+  719  cd ..
+  720  pwd
+  721  ls
+  722  cd yaffs2/
+  723  ls
+  724  cd patch
+  725  cd patches/
+  726  ls
+  727  cat README.txt 
+  728  cd ..
+  729  ls
+  730  ./patch-ker.sh c
+  731  ./patch-ker.sh c s ../linux-3.0.8
+  732  cd ../linux-3.0.8
+  733  ls
+  734  make menuconfig
+  735  vi fs/yaffs2/Kconfig 
+  736  make menuconfig
+  737  vi fs/yaffs2/Kconfig 
+  738  make menuconfig
+  739  vi fs/yaffs2/Kconfig 
+  740  make menuconfig
+  741  make
+  742  cd /usr/local/zeromq/
+  743  ls
+  744  pwd
+  745  ls
+  746  cd
+  747  ls
+  748  cd work/
+  749  ls
+  750  cd linux
+  751  ls
+  752  pwd
+  753  ls
+  754  cd
+  755  ls
+  756  tar -xvf zeromq-4.1.5.tar.gz 
+  757  cd zeromq-4.1.5
+  758  ls
+  759  cd tests/
+  760  ls
+  761  cd ..
+  762  ls
+  763  find
+  764  find > file.list
+  765  pwd
+  766  ls
+  767  cat file.list | wc -l
+  768  pwd
+  769  ls
+  770  cd tests/
+  771  ls
+  772  pwd
+  773  ls
+  774  gcc -o test_connect_delay_tipc.cpp 
+  775  gcc -c test_connect_delay_tipc.cpp 
+  776  cat ../file.list | grep platform.hpp
+  777  find /usr/local/zeromq/| grep platform.hpp
+  778  gcc -c test_iov.cpp -
+  779  pwd
+  780  ls
+  781  cd ..
+  782  ls
+  783  tree -L 1
+  784  tree -L 2
+  785  cd tools/
+  786  ls
+  787  gcc curve_keygen.cpp 
+  788  gcc curve_keygen.cpp -lzmq
+  789  ls
+  790  ./a.out 
+  791  \pwd
+  792  ls
+  793  cat curve_keygen.cpp 
+  794  sz
+  795  rz
+  796  wget http://www.ohse.de/uwe/releases/lrzsz-0.12.20.tar.gz
+  797  tar -xvf lrzsz-0.12.20.tar.gz 
+  798  cd lrzsz-0.12.20
+  799  ls
+  800  ./configure 
+  801  make -j4
+  802  su
+  803  pwd
+  804  ls
+  805  cd ..
+  806  ls
+  807  sz
+  808  rz
+  809  sz
+  810  rz
+  811  cat /etc/yum.repos.d/CentOS-Debuginfo.repo
+  812  cat /etc/yum.repos.d/CentOS6-Base-163.repo
+  813  yum install glibc
+  814  su
+  815  sz
+  816  pwd
+  817  ls
+  818  cd zeromq-4.1.5/t
+  819  cd zeromq-4.1.5/tests/
+  820  ls
+  821  su
+  822  ls
+  823  gcc test_fork.cpp -lzmq
+  824  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/
+  825  cat ../file.list | grep platform.hpp
+  826  cat ./builds/zos/platform.hpp
+  827  cat ../builds/zos/platform.hpp
+  828  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/
+  829  pwd
+  830  ls
+  831  ./a.out 
+  832  cat test_fork.cpp 
+  833  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/
+  834  pwd
+  835  cat >> ../order
+  836  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g
+  837  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o test_fork
+  838  ./test_fork 
+  839  gdb test_fork
+  840  y
+  841  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o test_fork
+  842  gdb test_fork
+  843  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o test_fork
+  844  gdb test_fork
+  845  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o test_fork
+  846  gdb test_fork
+  847  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o test_fork
+  848  gdb test_fork
+  849  gcc test_fork.cpp -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o test_fork
+  850  gdb test_fork
+  851  pwd
+  852  ls
+  853  cd ..
+  854  ls
+  855  pwd
+  856  ls
+  857  cd ..
+  858  ls
+  859  mv zeromq-4.1.5 zeromq-4.1.5.bk
+  860  ls
+  861  git clone https://github.com/weilaidb/zeromq-4.1.5.git
+  862  cp -af zeromq-4.1.5.bk/* zeromq-4.1.5/
+  863  cd zeromq-4.1.5
+  864  ls
+  865  git status
+  866  git add -A
+  867  git status
+  868  git commit -m "add original source code"
+  869  git push origin master
+  870  cd ..
+  871  ls
+  872  rm -rf zeromq-4.1.5.bk/
+  873  ls
+  874  cd zeromq-4.1.5
+  875  ls
+  876  cd tests/
+  877  ls
+  878  history | grep gcc
+  879  gcc -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o $APP -c $APP.c
+  880  APP=test_proxy.cpp
+  881  gcc -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o $APP -c $APP.c
+  882  APP=test_proxy
+  883  gcc -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o $APP -c $APP.cpp
+  884  ./test_proxy
+  885  chmod +x test_proxy
+  886  ./test_proxy
+  887  gcc -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o $APP -c $APP.cpp
+  888  APP=test_proxy
+  889  gcc -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o $APP -c $APP.cpp
+  890  APP=test_proxy
+  891  ./test_proxy
+  892  file text_proxy
+  893  file test_proxy
+  894  gcc -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -c test_proxy.cpp -o test_proxy
+  895  ./test_proxy
+  896  gcc -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -c test_proxy.cpp
+  897  ./a.out 
+  898  gcc test_proxy.cpp  -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g
+  899  ./a.out 
+  900  gcc test_proxy.cpp  -lzmq -I/usr/local/zeromq/include/ -I../builds/zos/ -g -o test_proxy
+  901  ./test_proxy 
+  902  gdb ./test_proxy
+  903  w
+  904  pwd
+  905  ls
+  906  cd test/
+  907  ls
+  908  mkdir stub
+  909  cd su
+  910  cd stub/
+  911  ls
+  912  cat > makefile
+  913  make
+  914  vi makefile 
+  915  make
+  916  cat > main.c
+  917  make
+  918  pwd
+  919  ls
+  920  vi main.c 
+  921  make
+  922  pwd
+  923  ls
+  924  ls -l
+  925  touch stub.cpp
+  926  touch stub.h
+  927  mv stub.cpp stub.c
+  928  man mprotect
+  929  cd test/stub/
+  930  ls
+  931  make
+  932  make clean
+  933  make
+  934  mkae
+  935  make
+  936  ./stub
+  937  gdb ./stub
+  938  vi makefile 
+  939  make
+  940  gdb ./stub
+  941  make
+  942  gdb ./stub
+  943  make clean
+  944  make
+  945  gdb ./stub
+  946  cd ../stub_some/
+  947  ls
+  948  make
+  949  ./stub_some 
+  950  make
+  951  ./stub_some 
+  952  gdb ./stub_some 
+  953  make
+  954  ./stub_some 
+  955  make
+  956  ./stub_some 
+  957  make
+  958  ./stub_some 
+  959  make
+  960  ./stub_some 
+  961  make
+  962  ./stub_some 
+  963  make
+  964  ./stub_some 
+  965  make
+  966  ./stub_some 
+  967  make
+  968  ./stub_some 
+  969  make
+  970  ./stub_some 
+  971  make
+  972  ./stub_some 
+  973  make
+  974  ./stub_some 
+  975  make
+  976  ./stub_some 
+  977  make
+  978  ./stub_some 
+  979  make
+  980  ./stub_some 
+  981  make
+  982  ./stub_some 
+  983  make
+  984  ./stub_some 
+  985  make
+  986  ./stub_some 
+  987  make
+  988  ./stub_some 
+  989  make
+  990  ./stub_some 
+  991  make
+  992  ./stub_some 
+  993  make && ./stub_some 
+  994  ./stub_some  
+  995  make && ./stub_some 
+  996  make clean
+  997  make
+  998  make && ./stub_some 
+  999  w
+ 1000  egrep 
+ 1001  egrep --help
+ 1002  ls
+ 1003  pwd
+ 1004  ls
+ 1005  git clone git@github.com:weilaidb/regular-expression.git
+ 1006  git clone https://github.com/weilaidb/regular-expression.git
+ 1007  ls
+ 1008  cd regular-expression/
+ 1009  ls
+ 1010  cp ../zeromq-4.1.5 .
+ 1011  cp ../zeromq-4.1.5 -af .
+ 1012  ls
+ 1013  du -sh
+ 1014  find . -name *.c
+ 1015  find . -name *.cpp
+ 1016  pwd
+ 1017  ls
+ 1018  find . -name *.cpp | xargs egrep -i '[a-zA-Z_0-9][a-zA-Z0-9]*'
+ 1019  find . -name *.cpp | xargs egrep -i '[a-zA-Z_0-9][a-zA-Z0-9]*' -n
+ 1020  history 
+ 1021  history  >> history
+ 1022  ls
+ 1023  cat history 
+ 1024  ls
+ 1025  lwd
+ 1026  pwd
+ 1027  ls
+ 1028  ls -l
+ 1029  find . -name *.cpp | xargs egrep -i '[a-zA-Z_0-9][a-zA-Z0-9]{0,21}' -n
+ 1030  find . -name *.cpp | xargs egrep -i '[a-zA-Z_0-9][a-zA-Z0-9]{0,2}' -n
+ 1031  find . -name *.cpp | xargs egrep -i '[a-zA-Z_0-9][a-zA-Z0-9]{0,100}' -n
+ 1032  find . -name *.cpp | xargs egrep -i '[a-zA-Z_0-9][a-zA-Z0-9]{0,100}' -n | wc -l
+ 1033  find . -name *.cpp | xargs egrep -i '[a-zA-Z_0-9][a-zA-Z0-9]{0,2}' -n | wc -l
+ 1034  find . -name *.cpp | xargs egrep -i '[a-zA-Z_0-9][a-zA-Z0-9]{0,100}' -n
+ 1035  find . -name *.cpp | xargs egrep -i "[^"]*" -n
+ 1036  find . -name *.cpp | xargs egrep -i '[^"]*' -n
+ 1037  egrep -i "[^"]*" ./zeromq-4.1.5/perf/local_lat.cpp
+ 1038  egrep -i \"[^"]*\" ./zeromq-4.1.5/perf/local_lat.cpp
+ 1039  egrep -i \"[^"]*\"  "abc"
+ 1040  egrep -i "[^"]*"  "abc"
+ 1041  egrep "[^"]*"  "abc"
+ 1042  egrep "[^"]*"  ./zeromq-4.1.5/perf/local_lat.cpp
+ 1043  egrep "[^?"]*"  ./zeromq-4.1.5/perf/local_lat.cpp
+ 1044  egrep '"[^"]*"'  ./zeromq-4.1.5/perf/local_lat.cpp
+ 1045  find . -name *.cpp | xargs egrep -i '"[^"]*"' -n
+ 1046  history 
+ 1047  history > history 
